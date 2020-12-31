@@ -284,7 +284,7 @@
   want to wait for user input, use get-key-blocking instead.
   "
   [^Screen screen]
-  (:key (get-key-with-modifiers)))
+  (:key (get-key-with-modifiers screen)))
 
 (defn get-key-blocking
   "Get the next keypress from the user.
