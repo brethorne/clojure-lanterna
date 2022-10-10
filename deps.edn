@@ -1,0 +1,5 @@
+{:paths ["src" "test"]
+ :deps
+ {org.clojure/clojure {:mvn/version "1.10.3"}
+  com.googlecode.lanterna/lanterna {:mvn/version "3.1.1"}}}
+
